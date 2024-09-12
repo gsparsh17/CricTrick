@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricTrick Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select Your Cricket Team</h1>
+        <div class="categories">
+            <button data-category="batsmen">Batsmen</button>
+            <button data-category="bowlers">Bowlers</button>
+            <button data-category="allrounders">All-Rounders</button>
+        </div>
+        <div class="players">
+            <!-- Player list will be injected here by JavaScript -->
+        </div>
+        <div class="selected-team">
+            <h2>Your Team</h2>
+            <ul id="team-list">
+                <!-- Selected players will be listed here -->
+            </ul>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
